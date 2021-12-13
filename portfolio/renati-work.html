@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Daiki-profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  </head>
+  <body>
+    <div class = "header">
+      <a href = "index.html">
+        <img src = "img/homeicom.png"  class = "home-icon button" alt = "ホームアイコン">
+      </a>
+    </div>
+    <div class = "image-content">
+      <div id="content">
+        <div id="thumb_img" class="cf renati-all-image">
+          <img class = "active" src = "img/renati-mashumalo.jpg" onclick = "changeimg('img/renati-mashumalo.jpg',this); textbutton1();">
+          <img src = "img/renati-poli.jpg" onclick="changeimg('img/renati-poli.jpg',this); textbutton2();">
+          <img src = "img/renati-tewi-chen.png" onclick="changeimg('img/renati-tewi-chen.png',this); textbutton3();">
+          <img src = "img/renati-tewi.jpg" onclick="changeimg('img/renati-tewi.jpg',this); textbutton4();">
+          <img src = "img/renati-pazdora.jpg" onclick="changeimg('img/renati-pazdora.jpg',this); textbutton5();">
+          <img src = "img/renati-bonbon.png" onclick="changeimg('img/renati-bonbon.png',this); textbutton6();">
+          <img src = "img/renati-mesugaki-cd.png" onclick="changeimg('img/renati-mesugaki-cd.png',this); textbutton7();">
+          <img src = "img/renati-mesugaki.png" onclick="changeimg('img/renati-mesugaki.png',this); textbutton8();">
+          <img src = "img/rabbilabo.png" onclick="changeimg('img/rabbilabo.png',this); textbutton9();">
+          <img src = "img/renati-rabbi.png" onclick="changeimg('img/renati-rabbi.png',this); textbutton10();">
+        </div>
+      </div>
+      <div class = "main-image">
+        <div id = "featured_img">
+          <img id = "img" src = "img/renati-mashumalo.jpg" alt = "マシュマロ" >
+        </div>
+      </div>
+      <div class = "character">
+        <div class = "hukidashi">
+          <img src = "img/hukidasi.png" alt = "吹き出し">
+          <span id = "text">同人誌の購入特典用に制作したチョコマシュマロ。saiを使用。イラスト完成時間は約４時間。
+            キャラクターは左から東方の椛、フランドール、てゐ。中にチョコが入ってておいしかった。</span>
+        </div>
+        <img src = "img/renati-rabbi.png" class = "rabi" alt = "ラビ" >
+        <div class = "tool">
+            <img id ="camera" src = "img/cameraicon.png" style ="opacity: 0.2">
+            <img id = "sai" src = "img/saiicon.png">
+            <img id = "photo" src = "img/photoshopicon.png" style ="opacity: 0.2">
+            <img id = "illare" src = "img/irareicon.png" style ="opacity: 0.2">
+        </div>
+        <div class = "links">
+          <a href = "index.html" class = "home-renati button work-button">ホームに戻る</a>
+          <a href = "renati-profile.html" class = "home-renati button work-button">プロフィール</a>
+        </div>
+      </div>
+     </div>
+     <script src = "main.js"></script>
+  </body>
+</html>

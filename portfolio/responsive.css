@@ -1,0 +1,341 @@
+@media screen and (max-width: 1680px){
+  .top-page {
+    height: 720px;
+  }
+  .daiki-plofile, .renati-plofile {
+    top: 300px;
+  }
+  .daiki-work, .renati-work {
+    top: 430px;
+  }
+}
+
+@media screen and (max-width: 1350px){
+  .daiki-content {
+    width: 800px;
+  }
+
+  .daiki-content img {
+    width: 500px;
+    margin: 10px 0 10px 15px;
+  }
+
+  .daiki-tool {
+    margin: 10px auto;
+  }
+
+  .daiki-tool img {
+    margin: 0;
+  }
+
+  .main-image img {
+    width: 750px;
+  }
+
+  .character {
+    left: 810px;
+  }
+}
+
+@media screen and (max-width: 1228px){
+  .top-page {
+    height: 600px;
+  }
+  .daiki-plofile, .renati-plofile {
+    font-size: 18px;
+    top: 250px;
+  }
+  .daiki-work, .renati-work {
+    font-size: 18px;
+    top: 320px;
+    padding: 0px 55px;
+  }
+  .daiki-plofile, .daiki-work {
+    left: 70px;
+  }
+  .renati-plofile, .renati-work {
+    right: 100px;
+  }
+}
+
+@media screen and (max-width: 1130px){
+  .thumbnail {
+    width: 90px;
+  }
+
+  .thumbnail img {
+    margin: 10px 15px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .daiki-content {
+    width: 650px;
+    margin-left: 80px;
+  }
+
+  .daiki-content img {
+    width: 450px;
+    margin: 10px 0 10px 15px;
+  }
+
+  .daiki-text-content {
+    width: 150px;
+    margin: 15px;
+  }
+
+  .daiki-tool {
+    margin: 10px auto;
+  }
+
+  .daiki-tool img {
+    margin: 0;
+  }
+
+  .pageup {
+    top: 5px;
+    left: 45%;
+  }
+
+  .daikiwork-link a {
+    text-align: center;
+    width: 40px;
+    font-size: 13px;
+  }
+
+  .main-image img {
+    width: 600px;
+    margin: 20px auto;
+  }
+
+  .renati-all-image {
+    margin: 80px auto 0;
+  }
+
+  .character {
+    left: 680px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .home-icon {
+    width: 200px;
+    height: 30px;
+    margin-top: 15px;
+  }
+  .top-image {
+    display: none;
+  }
+
+  .top-page {
+    width: 100%;
+    height: auto;
+  }
+
+  .mobile-top-image {
+    display: block;
+  }
+
+  .mobile-top-image a {
+    border: 1px solid black;
+  }
+
+  .mobile-top-image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .mobile-images {
+    display: flex;
+    width: 100%;
+    margin-top: -6px;
+    background-color: black;
+  }
+
+  .mobile-images img {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+  }
+
+  .mobile-images a {
+    box-sizing: border-box;
+    width: 25%;
+  }
+
+  .mobile-images a:hover {
+    opacity: 0.5;
+  }
+
+  .mobile-btn-daiki, .mobile-btn-renati {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+  .mobile-btn-daiki {
+    background-color: blue;
+  }
+
+  .mobile-btn-renati {
+    background-color: violet;
+  }
+
+  .daiki-profile, .renati-profile {
+    width: 420px;
+    height: auto;
+  }
+
+  .daiki-profile, .renati-profile {
+    display: block;
+  }
+
+  .daiki-profile-image, .renati-profile-image {
+    display: block;
+    height: 300px;
+    margin: 20px auto;
+  }
+
+  .daiki-profile-text, .renati-profile-text {
+    width: 360px;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  .main-image {
+    float: none;
+    width: 730px;
+    margin: 0 auto;
+  }
+
+  .main-image img {
+    width: 730px;
+  }
+
+  .main-image-content {
+    margin-left: 0;
+  }
+
+  .character {
+    float: none;
+    left: 35%;
+    height: 530px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .daiki-content {
+    display: block;
+    width: 80%;
+    margin-left: 80px;
+    padding-bottom: 5px;
+  }
+
+  .daiki-content img {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0 5px;
+  }
+
+  .daiki-text-content {
+    width: 90%;
+    padding-top: 3px;
+  }
+
+  .daiki-tool img {
+    padding: 0;
+  }
+
+  .main-image {
+    width: 100%;
+  }
+
+  .main-image img {
+    width: 97%;
+  }
+
+  .character {
+    left: 25%;
+  }
+}
+
+@media screen and (max-width: 490px){
+  .mobile-btn-daiki, .mobile-btn-renati  {
+    font-size: 14px;
+  }
+
+  .daiki-profile, .renati-profile {
+    width: 340px;
+    height: auto;
+  }
+
+  .daiki-profile, .renati-profile {
+    display: block;
+  }
+
+  .daiki-profile-image, .renati-profile-image  {
+    display: block;
+    height: 300px;
+    margin: 20px auto;
+  }
+
+  .daiki-profile-text, .renati-profile-text {
+    width: 300px;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  .daiki-content {
+    margin-left: 40px;
+  }
+
+  .thumbnail {
+    width: 50px;
+  }
+
+  .thumbnail img {
+    margin: 10px 0;
+    width: 40px;
+    height: 40px;
+  }
+
+  .daikiwork-link a {
+    width: 30px;
+    font-size: 9px;
+    margin: 5px;
+    padding: 10px;
+  }
+
+  .character {
+    left: 8%;
+  }
+
+  .pageup {
+    top: 5px;
+    left: 80%;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .top-page {
+    height: 812px;
+    background-color: black;
+  }
+}
+
+@media screen and (min-width: 1980px){
+  body {
+    max-width: 1980px;
+    width: 100%;
+  }
+
+  .hukidashi {
+    left: 1220px;
+  }
+
+  .rabi {
+    left: 1300px;
+  }
+}

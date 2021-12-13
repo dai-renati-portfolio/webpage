@@ -1,0 +1,81 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+.game {
+  text-align: center;
+  width: 350px;
+  margin: 10px auto;
+}
+
+#tittle {
+  font-size: 30px;
+}
+
+#reset {
+  width: 300px;
+  text-align: center;
+  margin-top: 1px;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 30px;
+}
+
+#reset:hover {
+  cursor : pointer;
+  opacity: .6;
+}
+
+#enemy {
+  width: 120px;
+  height: 100px;
+  margin: 0px auto;
+  border: 1px solid #000;
+  background-color: #ffcccc;
+  vertical-align: middle;
+  font-size: 60px;
+}
+
+#me {
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.hands {
+  margin-top: 10px;
+}
+
+.hand {
+  font-size: 60px;
+  margin: 0 10px;
+}
+
+.score {
+  margin-top: 15px;
+}
+
+.button:hover {
+  opacity: .6;
+  transition: .2s;
+}
+
+.button:active {
+  opacity: 0.2;
+}
+
+.home-btn, .work-btn {
+  display: block;
+  text-decoration:none;
+  text-align: center;
+  width: 110px;
+  margin: 10px 0 10px 110px;
+  padding: 10px 15px;
+  color: white;
+  font-size: 16px;
+  background-color: blue;
+  border-radius: 5px;
+}
